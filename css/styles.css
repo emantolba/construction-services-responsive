@@ -1,0 +1,863 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration:none;
+
+}
+html{
+  font-size: 16px;
+  font-family:sans-serif;
+}
+.container{
+  width:100%;
+  margin-left:auto;
+  margin-right: auto;
+}
+.clearfix{
+  clear: both;
+}
+#sec1{
+  background: linear-gradient(RGBA(0,0,0,0.5),RGBA(0,0,0,0.5)),
+		url('../Images/banner.jpg') no-repeat center center;
+    height: 100%;
+
+}
+#sec1 .container{
+padding-bottom: 20px;
+margin-right: auto;
+margin-left: auto;
+}
+#sec1 header{
+  background-color: #FFCB0F;
+  color: black;
+  padding: 3px;
+}
+#sec1 header ul i{
+  color: black;
+}
+
+#sec1 ul{
+  display: inline-block;
+  list-style: none;
+
+
+}
+#sec1 header ul:last-of-type{
+  float: right;
+
+}
+#sec1 ul li{
+  display: inline-block;
+  padding-left: 5PX;
+}
+#sec1 nav{
+  background-color: #222533;
+  display: flex;
+  justify-content:space-between;
+}
+#sec1 nav article h1{
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #FFf;
+}
+#sec1 nav article h1 span {
+  color: #FFCB0F;
+}
+#sec1 nav article p{
+  color: #999A9C;
+  padding-left: 15px;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+#sec1 nav div{
+  align-items: center;
+}
+#sec1 nav div div{
+  display: none;
+  margin-right: 10PX;
+
+}
+#sec1 nav input {
+  display: none;
+}
+#sec1 nav label{
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding:2px;
+  color: #999A9C;
+  border: thin solid #999A9C;
+}
+#sec1 nav input:checked+div{
+  display:block;
+  text-align: center;
+
+}
+#sec1 nav div div a{
+  display: block;
+  color:  #999A9C;
+  font-size: 0.8rem;
+  padding: 15px 10px;
+  color: #FFF;
+
+}
+#sec1 nav div div a:hover{
+  background-color:  #FFCB0F;
+  color: white;
+}
+#sec1 nav  div div a{
+  transition: 0.5s;
+}
+#sec1 .container> article{
+  margin-right: auto;
+  margin-left:auto;
+  color: white;
+  text-align: center;
+
+}
+#sec1 .container> article h4{
+  font-size: 1.2rem;
+  font-weight: lighter;
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px 5px;
+}
+#sec1 .container> article h1{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 10px 0;
+}
+#sec1 .container> article p{
+  text-align:center;
+  margin: 10px 5px;
+}
+#sec1 .container> article div{
+  display: flex;
+  justify-content: center;
+}
+#sec1 .container> article a{
+  display: block;
+  font-size: 0.8rem;
+  margin-right: 10px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: thin solid #FFCB0F;
+  color: #FFCB0F;
+  background-color: #000;
+  font-weight: 600;
+  margin-bottom: 40px;
+
+}
+#sec2 .container{
+  margin:20px;
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#sec2 .container img{
+  width:90%;
+  margin-top: 30px;
+}
+#sec2 .container article h1{
+  color: #FFCB0F;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  margin-left: 10px;
+
+}
+#sec2 .container article h3{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #484848;
+  margin-bottom: 30px;
+  margin-left: 10px;
+
+}
+#sec2 .container article p{
+  text-align: justify;
+  color: #000;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: justify;
+  margin-left: 10px;
+}
+#sec2 .container article a{
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: #FFCB0F;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+#sec3{
+  background: linear-gradient(RGBA(0,0,0,0.5),RGBA(0,0,0,0.5)),
+              url('../Images/bg2.jpg') no-repeat center center;
+
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#sec3 .container{
+  padding: 20px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#sec3 .container h4{
+  color: #FFCB0F;
+  font-weight:600;
+  font-size: 1.1rem;
+}
+#sec3 .container p{
+  color: white;
+  font-size: 0.8rem;
+  text-align:center;
+}
+#sec3 .container div{
+  display: flex;
+  flex-wrap: wrap;
+}
+#sec3 .container div article{
+  background-color: RGBA(0,0,0,0.5);
+  border-radius: 10px;
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  width: 60%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+}
+#sec3 .container div article h5{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFCB0F;
+}
+#sec3 .container div article p{
+  font-size: 0.7rem;
+  color:white;
+}
+#sec3 .container div img{
+  display: block;
+  padding: 20px;
+  border-radius: 50%;
+  background-color:#FFCB0F;
+  position: absolute;
+  left:45px;
+  top:-50px;
+
+}
+#sec4 .container{
+  margin-right: auto;
+  margin-left: auto;
+}
+#sec4 h1{
+  color: #484848;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform:capitalize;
+  font-weight:bold;
+}
+#sec4 figure{
+    position:relative;
+}
+#sec4 figure img{
+  display: block;
+  margin: 15px 10px;
+  width: 90%;
+
+}
+#sec4 figure div{
+  position:absolute;
+  background-color: RGBA(0,0,0,0.5);
+  text-align: center;
+  text-transform: uppercase;
+  top:171px;
+  width: 90%;
+  left: 10px;
+  padding: 14px 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.7rem;
+}
+#sec4 figcaption{
+  text-align: justify;
+  margin: 10px 10px;
+  font-size: 0.9rem;
+  padding-left: 5px;
+}
+#sec4 figure a{
+  display: inline-block;
+  margin-left: 30px;
+  padding: 10px 15px;
+  color: white;
+  background-color: #FFCB0F;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+#sec5{
+  background: linear-gradient(RGBA(0,0,0,0.5),RGBA(0,0,0,0.5)),
+              url('../Images/bg4.jpg') no-repeat center center;
+              height: 100%;
+}
+#sec5 .container{
+  margin: 20px 15px;
+  padding-top: 10px;
+}
+#sec5 .container h1{
+  color: white;
+  font-size: 1.5rem;
+  font-weight:600;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin-top:20px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#sec5 .container p{
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+#sec5 .container ul{
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+#sec5 .container li{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+#sec5 .container li:hover{
+  background-color: #282828;
+}
+#sec5 .container img{
+  display:inline-block;
+  margin: 10px 10px;
+  width: 90%;
+}
+#sec6{
+  background:url('../Images/bg3.jpg') no-repeat center center;
+              height: 100%;
+}
+#sec6 .container{
+  margin-right: auto;
+  margin-left: auto;
+
+}
+#sec6 .container h1{
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #484848;
+  text-align: center;
+}
+#sec6 .container p{
+  font-size: 0.9rem;
+  color: black;
+  text-align: center;
+}
+#sec6 .container article{
+  display: flex;
+  width: 80%;
+  font-size: 0.7rem;
+  margin: 20px;
+  padding: 10px 10px 20px 10px;
+  color: black;
+  background-color:#E5E5E5;
+  text-align: justify;
+  justify-content: space-between;
+  position:relative;
+}
+
+#sec6 .container article::before{
+      content: '';
+      border-top: 10px solid #E5E5E5;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      position:absolute;
+        top: 100%;
+        left: 114px;
+}
+#sec6 .container .yellow::before{
+  content: '';
+  border-top: 10px solid #FFCB0F;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position:absolute;
+  top: 100%;
+  left: 114px;
+}
+#sec6 .container div> img{
+    margin:0 33%;
+    border-radius: 50%
+}
+
+}
+#sec6 .container article p{
+  padding: 10px 10px 20px 10px;
+  width: 75%;
+}
+#sec6 .container article img{
+  align-self:flex-start;
+  width:20%
+}
+#sec6 >.container> div>img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#sec7 .container {
+  background-color: #FEDB5D;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+    flex-wrap:wrap;
+}
+#sec7 .container h2{
+  color: #73757E;
+  font-size: 1rem;
+  font-weight:800;
+  text-transform: uppercase;
+
+}
+#sec7 .container h1{
+  color: #73757E;
+  font-size: 1rem;
+  font-weight: 100;
+  padding-top: 5px;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  padding-bottom: 20px;
+}
+#sec7 .container .form{
+  display:flex;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+  justify-content:flex-start;
+
+}
+#sec7 .container .form input{
+  width: 80%;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  border: none;
+  outline: none;
+}
+#sec7 .container .form input:nth-of-type(3){
+  width: 100%;
+}
+#sec7 .container .form #sub{
+  width: 50%;
+  background-color: #73757E;
+  margin-left: 15%;
+  color: white;
+  text-transform: uppercase;
+}
+#sec8 .container{
+  background: linear-gradient(RGBA(0,0,0,0.7),RGBA(0,0,0,0.7)),
+              url('../Images/bg2.jpg') no-repeat center center;
+              height: 100%;
+              border-top: 50px solid #656A73;
+              border-bottom: 50px solid #656A73;
+}
+
+#sec8 .container article h3{
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+#sec8 .container article h1{
+  color: #FFCB0F;
+  font-size: 1.8rem;
+  text-align: center;
+
+}
+#sec8 .container article>p{
+  color: white;
+  font-size: 0.5rem;
+  text-align: center;
+}
+#sec8 .container article p{
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  text-align: center;
+}
+#sec8 .container article div {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%
+}
+#sec8 .container article div i{
+  color:#282828;
+  margin-left:10px;
+  margin-top: 5px;
+
+  display:inline-block;
+  padding:15px;
+  background-color: #FFCB0F;
+  border-radius: 50%;
+}
+#sec8 .container .exlink h2{
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+#sec8 .container .exlink ul{
+      list-style:disc;
+      text-align:left;
+      width:35%;
+      margin-right: auto;
+      margin-left:auto;
+
+}
+#sec8 .container .exlink ul li a{
+  color: white;
+  text-decoration: none;
+
+}
+#sec8 .container .exlink ul li a:hover{
+  color:#FFCB0F;
+}
+#sec8 .container .post h3{
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 20px;
+
+}
+#sec8 .container .post div{
+  display: flex;
+  margin: 3px;
+
+}
+#sec8 .container .post div span{
+  padding: 7px;
+  border: thin solid white;
+  border-radius: 50%;
+  text-align: center;
+  width: 48px;
+  color: white;
+  margin: 3px;
+  font-size: 0.8rem;
+}
+#sec8 .container .post div p{
+  text-align: left;
+}
+#sec8 .container .conus h3{
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+
+}
+#sec8 .container .conus p{
+  color: white;
+  font-size: 0.7rem;
+  text-align: left;
+  margin-bottom: 20px;
+
+}
+#sec8 .container .conus p i{
+  color: white;
+  font-size: 1rem;
+  padding-right: 20px;
+  background: none;
+  margin-left: 25%;
+    margin-bottom: 10px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container{
+    width:720px;
+  }
+  #sec2 .container{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #sec2 .container img{
+    width: 55%
+  }
+  #sec3 .container div{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  #sec3 .container div article{
+    background-color: RGBA(0,0,0,0.5);
+    width: 35%;
+  }
+  #sec4 .container{
+    margin: 10px 40px;
+  }
+  #sec4 .container div{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+  }
+  #sec4 figure{
+    width:30%;
+  }
+  #sec4 figure div{
+    top:117px;
+    font-size: 0.7rem;
+  }
+  #sec5 .container div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  #sec5 .container div .bigimg{
+    width: 70%;
+
+  }
+  #sec5 .container div img{
+    width: 40%;
+  }
+  #sec5 .container ul{
+      padding: 0 69px;
+  }
+  #sec6 .container .flex div article{
+    width:100;
+    margin-right:2px;
+
+  }
+
+  #sec6 .container .flex div article img{
+    width: 30%;
+    padding: 0 20px;
+  }
+
+  #sec6 .container .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  #sec6 .container .flex div{
+    width: 35%;
+  }
+
+  #sec6 .container .flex div article div {
+    width: 85%;
+    padding-left: 10px;
+}
+#sec8 .container div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+#sec8 .container div article{
+  width: 48%;
+}
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container{
+    width: 950px;
+  }
+  #sec1 .container{
+    padding-bottom: 50px;
+  }
+  #sec1 nav div div{
+    display:block;
+    padding-top: 50px;
+
+  }
+  #sec1 nav div div a{
+    display:inline-block;
+    padding: 10px 10px;
+  }
+  #sec1 nav label{
+    display: none;
+  }
+
+  #sec1 .container> article h4{
+    font-size: 1.2rem;
+    padding-top: 50px;
+  }
+  #sec1 .container> article h1{
+    font-size: 3rem;
+  }
+  #sec1 .container> article p{
+    padding: 20px 0;
+    font-size: 1.3rem;
+  }
+  #sec1 .container> article a{
+    text-align: center;
+    margin-right: 10px;
+  }
+  #sec2 .container img{
+    width: 49%
+  }
+  #sec3 .container{
+    padding-top: 15%;
+  }
+  #sec3 .container div{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  #sec3 .container div article{
+    background-color: RGBA(0,0,0,0.5);
+    width: 18%;
+  }
+  #sec4 .container{
+    margin: 0 100px;
+  }
+  #sec4 figure div{
+    top:162px;
+    font-size: 0.7rem;
+  }
+  #sec5 .container ul{
+      padding: 0 178px;
+  }
+  #sec5 .container div{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+  }
+  #sec5 .container div article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  #sec5 .container div article img{
+    width: 43%;
+    align-self:auto;
+  }
+
+  #sec5 .container div .bigimg{
+    width:45%;
+  }
+  #sec6 .container .flex div article{
+    width: 80%;
+  }
+  #sec6 .container .flex div{
+    width: 32%;
+  }
+
+  #sec6 .container .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #sec6 .container article::before{
+        content: '';
+        border-top: 10px solid #E5E5E5;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+        position:absolute;
+      top:100%;
+      left: 114px;
+  }
+  #sec6 .container .yellow::before{
+    content: '';
+    border-top: 10px solid #FFCB0F;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position:absolute;
+  top: 100%;
+  left: 114px;
+  }
+  #sec7 .container{
+    flex-wrap:nowrap;
+  }
+  #sec7 .container h2{
+    font-size: 2rem;
+  }
+  #sec7 .container h1{
+    font-size: 1.6rem;
+  }
+  #sec7 .container .form{
+
+  }
+  #sec7 .container .form input{
+    width: 46%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  #sec7 .container .form input:nth-of-type(3){
+    width: 75%;
+    margin-right:0;
+  }
+  #sec7 .container .form #sub{
+    width: 18%;
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  #sec8 .container div article{
+    width: 24%;
+  }
+  #sec8 .container .post div span{
+    width: 20%;
+    padding-top: 5%;
+    padding-top: 5%;
+
+  }
+  #sec8 .container .post div{
+    flex-wrap: nowrap;
+  }
+  #sec8 .container .post div p{
+    width: 70%;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container{
+    width:1160px;
+  }
+  #sec4 figure div{
+    top:204px;
+    font-size: 0.7rem;
+  }
+  #sec5 .container ul{
+      padding: 0 287px;
+  }
+
+
+
+}
